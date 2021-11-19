@@ -31,7 +31,7 @@ function inserirItem(evento){
     const texto = evento.target.value;
     if(tecla === 'Enter'){
         const bancoDados = getBanco();
-        bancoDados.push({'nome' : texto, 'status' : ''})
+        bancoDados.push({'tarefa' : texto, 'status' : ''})
         setBanco(bancoDados);
         atualizarTela();
         evento.target.value = '';
