@@ -1,2 +1,2 @@
 # projeto-lista
- Site de criação e confirmação do tipo lista
+ Site de criação e  controle de lista de convidado
